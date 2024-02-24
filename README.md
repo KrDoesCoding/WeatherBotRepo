@@ -1,14 +1,15 @@
 # Weather Bot Project
-The Weather Bot Project is a Django web application designed to provide users with real-time weather information for any city around the world. 
+<b>The Weather Bot Project is a Django web application designed to provide users with real-time weather information for any city around the world.</b> 
 
-#Overview
+<h2>Overview</h2>
 This project utilizes Python's Django framework to handle backend logic, while HTML templates are used for the frontend interface. The Weather Bot allows users to input a city name and retrieve detailed weather reports including temperature, weather conditions, maximum and minimum temperatures, and the "feels like" temperature.
 
-#Features
-Weather Information: Get detailed weather reports for any city worldwide.
-User-Friendly Interface: Simple and intuitive interface for ease of use.
-Real-Time Updates: Weather data is retrieved in real-time, ensuring accuracy.
-Responsive Design: Compatible with various devices, including desktops, tablets, and mobile phones.
-Customizable: Easily customizable to add new features or modify existing ones.
-
+<h2>Features</h2>
+<ul>
+<li><b>Weather Information:</b> Get detailed weather reports for any city worldwide.</li>
+<li><b>User-Friendly Interface:</b> Simple and intuitive interface for ease of use.</li>
+<li><b>Real-Time Updates:</b> Weather data is retrieved in real-time, ensuring accuracy.</li>
+<li><b>Responsive Design:</b> Compatible with various devices, including desktops, tablets, and mobile phones.</li>
+<li><b>Customizable:</b> Easily customizable to add new features or modify existing ones.</li>
+</ul>
 
