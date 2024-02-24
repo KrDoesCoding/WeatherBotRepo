@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .weather-info {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ weather_info.city }}</h1>
+        <div class="weather-info">
+            <h3>Today's Weather: {{ weather_info.main }}</h3>
+            <h3>Temperature: {{ weather_info.temp }}&deg;C</h3>
+            <h3>Max Temperature: {{ weather_info.max_temp }}&deg;C</h3>
+            <h3>Min Temperature: {{ weather_info.min_temp }}&deg;C</h3>
+            <h3>Feels Like: {{ weather_info.feels_like }}&deg;C</h3>
+        </div>
+    </div>
+</body>
+</html>
