@@ -6,10 +6,19 @@ This project utilizes Python's Django framework to handle backend logic, while H
 
 <h2>Features</h2>
 <ul>
-<li><b>Weather Information:</b> Get detailed weather reports for any city worldwide.</li>
-<li><b>User-Friendly Interface:</b> Simple and intuitive interface for ease of use.</li>
-<li><b>Real-Time Updates:</b> Weather data is retrieved in real-time, ensuring accuracy.</li>
-<li><b>Responsive Design:</b> Compatible with various devices, including desktops, tablets, and mobile phones.</li>
-<li><b>Customizable:</b> Easily customizable to add new features or modify existing ones.</li>
+  <li><b>Weather Information:</b> Get detailed weather reports for any city worldwide.</li>
+  <li><b>User-Friendly Interface:</b> Simple and intuitive interface for ease of use.</li>
+  <li><b>Real-Time Updates:</b> Weather data is retrieved in real-time, ensuring accuracy.</li>
+  <li><b>Responsive Design:</b> Compatible with various devices, including desktops, tablets, and mobile phones.</li>
+  <li><b>Customizable:</b> Easily customizable to add new features or modify existing ones.</li>
 </ul>
 
+<h2>To Use</h2>
+<ol>
+  <li>Clone the repository to your local machine.</li>
+  <li>Setup a virtual environment using 'virtualenv' or 'venv'.</li>
+  <li>Activate the virtual environment.</li>
+  <li>Install the required dependencies using 'pip install -r requirements.txt'.</li>
+  <li>Run migrations using 'python manage.py migrate'.</li>
+  <li>Start the development server with 'python manage.py runserver'.</li>
+</ol>
